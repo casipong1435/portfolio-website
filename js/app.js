@@ -11,8 +11,6 @@ $(document).ready(function(){
     const project_images = document.querySelectorAll('.project-image');
     const close_buttons = document.querySelectorAll('.carousel-close-button');
 
-    console.log(close_buttons);
-
     project_images.forEach(openCarouselByID);
     close_buttons.forEach(closeCarouselByID);
 
